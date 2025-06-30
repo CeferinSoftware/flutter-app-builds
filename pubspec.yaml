@@ -1,0 +1,42 @@
+name: {APP_NAME_SLUG}
+description: {APP_DESCRIPTION}
+version: {APP_VERSION}+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.4.2
+  connectivity_plus: ^5.0.2
+  url_launcher: ^6.2.2
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  permission_handler: ^11.2.0
+  device_info_plus: ^9.1.1
+  package_info_plus: ^4.2.0
+  flutter_native_splash: ^2.3.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # App icon configuration
+  # This will be configured by the builder
+  
+flutter_native_splash:
+  color: "{PRIMARY_COLOR}"
+  image: assets/images/splash_logo.png
+  android_12:
+    color: "{PRIMARY_COLOR}"
+    image: assets/images/splash_logo.png 
