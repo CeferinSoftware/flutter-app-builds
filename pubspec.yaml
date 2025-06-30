@@ -1,6 +1,6 @@
-name: {APP_NAME_SLUG}
-description: {APP_DESCRIPTION}
-version: {APP_VERSION}+1
+name: tcg_ai_pro
+description: "Flutter WebView app for TCG AI PRO"
+version: 1.0.0+1
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
@@ -31,12 +31,9 @@ flutter:
     - assets/images/
     - assets/icons/
   
-  # App icon configuration
-  # This will be configured by the builder
-  
 flutter_native_splash:
-  color: "{PRIMARY_COLOR}"
+  color: "#2196F3"
   image: assets/images/splash_logo.png
   android_12:
-    color: "{PRIMARY_COLOR}"
-    image: assets/images/splash_logo.png 
+    color: "#2196F3"
+    image: assets/images/splash_logo.png
